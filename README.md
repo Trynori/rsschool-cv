@@ -1,1 +1,1 @@
-# [https://GITHUB-USERNAME.github.io/rsschool-cv/cv](rsschool-cv)
+# [rsschool-cv](https://Trynori.github.io/rsschool-cv/cv)
