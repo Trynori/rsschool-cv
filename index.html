@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cv</title>
+  </head>
+
+  <body>
+    <body>
+      <main class="cv">
+        <section class="my-skills">
+          <article class="contact">
+            <img
+              class="photo"
+              src="images/My-photo.jpg"
+              alt="Alexander Kharitonov"
+            />
+            <h2 class="text-chapter">Contact information</h2>
+            <div class="contact-information">
+              <ul>
+                <li>Phone: +375 (29) 545-53-70</li>
+                <li>Email: sasha.xaritonov.1995@mail.ru</li>
+                <li>Discord: Aternass#2297</li>
+              </ul>
+            </div>
+          </article>
+          <article class="skills">
+            <h2 class="text-chapter">Skills</h2>
+            <div class="skills-information">
+              <ul>
+                <li>HTML5, CSS3</li>
+                <li>
+                  Java 11(Spring web, spring security, Hibernate, Spring boot)
+                </li>
+                <li>Maven/Gradle</li>
+                <li>PostgresSQL, redis</li>
+                <li>Git, GitHub, BitBucket</li>
+                <li>English: A2+</li>
+              </ul>
+            </div>
+          </article>
+          <a href="https://rs.school/">
+            <img class="cv-photo-rs-school" src="images/rs_school_js.svg" alt="Click"/>
+          </a>
+        </section>
+
+        <section class="about-myself">
+          <header>
+            <h1 class="about-myself__header">Alexander Kharitonov</h1>
+            <h3>Junior fullstack Developer</h3>
+          </header>
+          <div class="line"></div>
+          <h3></h3>
+          <article class="about-myself__article">
+            <h3>About Myself</h3>
+            <p>
+                3rd year student of Belarusian State University transport. I study
+                software development technologies tension, java programming
+                language, algorithms and patterns design. I consider it my priority
+                develop client-server applications.
+            </p>
+            <div class="line"></div>
+          </article>
+          <article class="about-myself_code">
+            <h3>Code example</h3>
+            <pre>
+                <code>
+                public List<ParameterModel> analysisIndicators(List<ParameterModel> firstParameters, List<> secondParameters) { <Br> 
+                    List<ParameterModel> parameterList = firstParameters.stream().map(parameter -> { <Br>
+                        ParameterModel comparedParameter = secondParameters.stream() <Br>
+                                .filter(p -> p.getId() == parameter.getId()) <Br>
+                                .findFirst() <Br>
+                                .get(); <Br>
+                        parameter.setAnalysis(parameter.getValue() > comparedParameter.getValue()); <Br>
+                        return parameter; <Br>
+                    }).collect(Collectors.toList());
+
+                    return parameterList;
+                }
+            </code>
+            </pre>
+          </article>
+
+          <footer class="footer">
+            <nav>
+                <ul class="ul-list">
+                    <li class="footer__item">
+                        <a href="https://github.com/Trynori">
+                            <img class="logo-photo" src="images/git-hub.png" />
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="https://rs.school/">
+                            <img class="logo-photo" src="images/rolling-scopes-logo.png">
+                        </a>
+                    </li>
+                    <li>2022</li>
+                </ul>
+            </nav>
+          </footer>
+        </section>  
+      </main>
+    </body>
+  </body>
+</html>

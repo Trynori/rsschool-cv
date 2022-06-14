@@ -1,0 +1,108 @@
+
+
+body {
+  padding: 40px;
+  margin: auto;
+  background-color: gray;
+  font-family: "Roboto", sans-serif;
+}
+
+.cv {
+  border: black solid 1px;
+  display: flex;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.my-skills {
+  padding: 1rem;
+  width: 30%;
+  color: white;
+  background-color: #03466b;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+li {
+  padding: 3px;
+}
+
+.photo {
+  display: block;
+  margin: 0 auto;
+  width: 319.02px;
+  height: 330.2px;
+  border: black;
+  border-radius: 50%;
+}
+
+.about-myself {
+  padding: 2em;
+  width: 70%;
+  background-color: white;
+}
+
+.line {
+  width: 100%;
+  margin-top: 1rem;
+  height: 0.1rem;
+  background-color: grey;
+  margin-bottom: 4rem;
+}
+
+.contact {
+  font-size: 16px;
+}
+
+.text-chapter {
+  text-decoration: white underline 5px;
+}
+
+.contact-information {
+  font-size: 18px;
+}
+
+.skills-information {
+  font-size: 18px;
+}
+
+.header-myself {
+  font-size: 40px;
+}
+
+.cv-photo-rs-school {
+  margin-top: 30px;
+}
+
+.footer {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ul-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 0;
+}
+
+/* .ul-list li {
+  display: inline;
+} */
+
+.logo-photo {
+  width: 50px;
+  height: 50px;
+}
+
+.footer__item:not(:last-child) {
+  margin: 0 50px 0 0;
+}
